@@ -4,6 +4,8 @@
 * Unity minimum version: **6000.1**
 * Current version: **0.1.0**
 * License: **MIT**
+* Dependencies:
+	- [com.actioncode.[dependency] : 1.2.3](https://github.com/HyagoOliveira/[dependency]/tree/1.2.3/)
 
 ## Summary
 
@@ -11,7 +13,9 @@ This package has some tools to facilitate Unity development with localization. I
 
 ## How To Use
 
-### Using [...]
+### Find Translation Tables
+
+You can quickly find the Translations Tables inside your project by going to Tools > Find > Localization Folder.
 
 ## Installation
 
