@@ -1,22 +1,19 @@
 {
-  "name": "com.actioncode.[packagename]",
-  "displayName": "ActionCode-[PackageName]",
+  "name": "com.actioncode.localization-system",
+  "displayName": "ActionCode-Localization System",
   "version": "0.1.0",
-  "unity": "2022.3",
-  "description": "This package contains [...].",
-  "keywords": [
-    "",
-    ""
-  ],
+  "unity": "6000.1",
+  "description": "This package contains Localization utility code.",
+  "keywords": ["Localization"],
   "dependencies": {},
   "license": "MIT",
-  "homepage": "https://github.com/HyagoOliveira/[PACKAGE]#readme",
+  "homepage": "https://github.com/HyagoOliveira/LocalizationSystem#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HyagoOliveira/[PACKAGE].git"
+    "url": "https://github.com/HyagoOliveira/LocalizationSystem.git"
   },
-  "documentationUrl": "https://github.com/HyagoOliveira/[PACKAGE]#readme",
-  "changelogUrl": "https://github.com/HyagoOliveira/[PACKAGE]/CHANGELOG.md",
+  "documentationUrl": "https://github.com/HyagoOliveira/LocalizationSystem#readme",
+  "changelogUrl": "https://github.com/HyagoOliveira/LocalizationSystem/CHANGELOG.md",
   "author": {
     "name": "Hyago Oliveira",
     "email": "hyagogow@gmail.com"
