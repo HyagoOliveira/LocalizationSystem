@@ -5,7 +5,7 @@
 * Current version: **0.1.0**
 * License: **MIT**
 * Dependencies:
-	- [com.actioncode.[dependency] : 1.2.3](https://github.com/HyagoOliveira/[dependency]/tree/1.2.3/)
+	- [com.unity.localization : 1.5.7](https://docs.unity3d.com/Packages/com.unity.localization@1.5/changelog/CHANGELOG.html#157---2025-08-07)
 
 ## Summary
 

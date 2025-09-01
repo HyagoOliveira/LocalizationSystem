@@ -4,8 +4,12 @@
   "version": "0.1.0",
   "unity": "6000.1",
   "description": "This package contains Localization utility code.",
-  "keywords": ["Localization"],
-  "dependencies": {},
+  "keywords": [
+    "Localization"
+  ],
+  "dependencies": {
+    "com.unity.localization": "1.5.7"
+  },
   "license": "MIT",
   "homepage": "https://github.com/HyagoOliveira/LocalizationSystem#readme",
   "repository": {
