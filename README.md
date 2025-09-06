@@ -24,7 +24,7 @@ Go to Project Settings > Localization, Locale Selectors and add the [Game Data L
 
 ![Game Data Locale Selector](/Docs~/GameDataLocaleSelector.png)
 
-Make sure to use your project Game Data (a Scriptable Object implementation from AbstractGameData)
+Make sure to place it as the first list item and use your project Game Data (a Scriptable Object implementation from AbstractGameData).
 
 ![Locale Selectors](/Docs~/LocaleSelectors.png)
 
