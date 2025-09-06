@@ -12,11 +12,21 @@
 
 This package has some tools to facilitate Unity development with localization. It uses the Unity Localization package.
 
-## How To Use
-
-### Find Translation Tables
+## Find Translation Tables
 
 You can quickly find the Translations Tables inside your project by going to Tools > Find > Localization Folder.
+
+## Start Game using Serialized Localization
+
+Starts your game using the serialized data from any [AbstractGameData](https://github.com/HyagoOliveira/GameDataSystem/blob/main/Runtime/AbstractGameData.cs) implementation (from Game Data System package).
+
+Go to Project Settings > Localization, Locale Selectors and add the [Game Data Locale Selector](/Runtime/GameDataLocaleSelector.cs).
+
+![Game Data Locale Selector](/Docs~/GameDataLocaleSelector.png)
+
+Make sure to use your project Game Data (a Scriptable Object implementation from AbstractGameData)
+
+![Locale Selectors](/Docs~/LocaleSelectors.png)
 
 ## Installation
 
