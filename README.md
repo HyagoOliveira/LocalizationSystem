@@ -7,6 +7,7 @@
 * Dependencies:
 	- [com.unity.localization : 1.5.7](https://docs.unity3d.com/Packages/com.unity.localization@1.5/changelog/CHANGELOG.html#157---2025-08-07)
 	- [com.actioncode.game-data-system : 0.1.0](https://github.com/HyagoOliveira/GameDataSystem#0.1.0)
+	- [com.actioncode.ui-system : 0.2.0](https://github.com/HyagoOliveira/UISystem#0.2.0) (optional)
 
 ## Summary
 

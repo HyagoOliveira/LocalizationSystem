@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - GameDataLocaleSelector
 - LocalizationManager static class
+- UI System dependency (optional)
 - Game Data System dependency
 - Unity Localization Dependency
 - Tool to find Localization Folder (Tools > Find > Localization Folder)
