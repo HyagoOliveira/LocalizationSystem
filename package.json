@@ -1,7 +1,7 @@
 {
   "name": "com.actioncode.localization-system",
   "displayName": "ActionCode-Localization System",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "unity": "6000.1",
   "description": "This package contains Localization utility code.",
   "keywords": [
@@ -18,7 +18,7 @@
     "url": "https://github.com/HyagoOliveira/LocalizationSystem.git"
   },
   "documentationUrl": "https://github.com/HyagoOliveira/LocalizationSystem#readme",
-  "changelogUrl": "https://github.com/HyagoOliveira/LocalizationSystem/CHANGELOG.md",
+  "changelogUrl": "https://github.com/HyagoOliveira/LocalizationSystem/blob/main/CHANGELOG.md",
   "author": {
     "name": "Hyago Oliveira",
     "email": "hyagogow@gmail.com"
