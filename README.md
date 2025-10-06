@@ -2,7 +2,7 @@
 
 * Scripts and tools for Localization.
 * Unity minimum version: **6000.1**
-* Current version: **1.1.0**
+* Current version: **1.2.0**
 * License: **MIT**
 * Dependencies:
 	- [com.unity.localization : 1.5.7](https://docs.unity3d.com/Packages/com.unity.localization@1.5/changelog/CHANGELOG.html#157---2025-08-07)
