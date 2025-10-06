@@ -19,6 +19,6 @@ namespace ActionCode.LocalizationSystem
         [SerializeField] private AbstractGameData data;
 
         public Locale GetStartupLocale(ILocalesProvider availableLocales) =>
-            data.HasValidLanguage() ? availableLocales.GetLocale(data.LanguageCode) : null;
+            data.HasValidLanguage() ? availableLocales.GetLocale(data.Settings.LanguageCode) : null;
     }
 }
