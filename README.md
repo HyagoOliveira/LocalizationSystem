@@ -2,11 +2,11 @@
 
 * Scripts and tools for Localization.
 * Unity minimum version: **6000.1**
-* Current version: **1.2.0**
+* Current version: **1.3.0**
 * License: **MIT**
 * Dependencies:
-	- [com.unity.localization : 1.5.7](https://docs.unity3d.com/Packages/com.unity.localization@1.5/changelog/CHANGELOG.html#157---2025-08-07)
-	- [com.actioncode.game-data-system : 0.3.0](https://github.com/HyagoOliveira/GameDataSystem#0.3.0)
+	- [com.unity.localization : 1.5.8](https://docs.unity3d.com/Packages/com.unity.localization@1.5/changelog/CHANGELOG.html#158---2025-09-26)
+	- [com.actioncode.game-data-system : 0.4.0](https://github.com/HyagoOliveira/GameDataSystem#0.4.0)
 
 ## Summary
 
