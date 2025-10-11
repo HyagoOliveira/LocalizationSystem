@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.4.0] - 2025-10-11
 ### Added
 - LocalizationManager.Select using string identifier
 
@@ -36,7 +37,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - gitignore
 - Initial commit
 
-[Unreleased]: https://github.com/HyagoOliveira/LocalizationSystem/compare/1.3.0...main
+[Unreleased]: https://github.com/HyagoOliveira/LocalizationSystem/compare/1.4.0...main
+[1.4.0]: https://github.com/HyagoOliveira/LocalizationSystem/tree/1.4.0/
 [1.3.0]: https://github.com/HyagoOliveira/LocalizationSystem/tree/1.3.0/
 [1.2.0]: https://github.com/HyagoOliveira/LocalizationSystem/tree/1.2.0/
 [1.1.0]: https://github.com/HyagoOliveira/LocalizationSystem/tree/1.1.0/
