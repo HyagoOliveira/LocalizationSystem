@@ -19,7 +19,18 @@ namespace ActionCode.LocalizationSystem
         /// <summary>
         /// Selects the given language.
         /// </summary>
-        /// <param name="locale"></param>
+        /// <param name="identifier">The locale identifier.</param>
+        public static void Select(string identifier)
+        {
+            var localeProvider = LocalizationSettings.AvailableLocales;
+            var locale = localeProvider.GetLocale(identifier);
+            if (locale) Select(locale);
+        }
+
+        /// <summary>
+        /// Selects the given language.
+        /// </summary>
+        /// <param name="locale">The locale.</param>
         public static void Select(Locale locale)
         {
             LocalizationSettings.SelectedLocale = locale;
