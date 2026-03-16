@@ -74,6 +74,13 @@ namespace ActionCode.LocalizationSystem
             return name;
         }
 
+        /// <summary>
+        /// <inheritdoc cref="LocaleIdentifier.Code"/>
+        /// </summary>
+        /// <returns></returns>
+        public static string GetCurrentLocalizationCode() =>
+            LocalizationSettings.SelectedLocale.Identifier.Code;
+
         // SelectedLocaleAsync will ensure that all locales have been initialized and a locale has been selected.
         private static async Awaitable InitializeLocalizationAsync() => await LocalizationSettings.SelectedLocaleAsync.Task;
 
