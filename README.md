@@ -2,7 +2,6 @@
 
 * Scripts and tools for Localization.
 * Unity minimum version: **6000.3**
-* Current version: **1.5.0**
 * License: **MIT**
 
 ## Summary

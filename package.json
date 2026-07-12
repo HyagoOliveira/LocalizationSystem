@@ -1,15 +1,15 @@
 {
   "name": "com.actioncode.localization-system",
   "displayName": "ActionCode-Localization System",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "unity": "6000.3",
   "description": "This package contains Localization utility code.",
   "keywords": [
     "Localization"
   ],
   "dependencies": {
-    "com.actioncode.game-data-system": "0.5.1",
-    "com.unity.localization": "1.5.11",
+    "com.actioncode.game-data-system": "1.2.0",
+    "com.unity.localization": "1.5.12",
     "com.unity.ugui": "2.0.0"
   },
   "license": "MIT",
