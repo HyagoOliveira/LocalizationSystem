@@ -8,7 +8,6 @@
     "Localization"
   ],
   "dependencies": {
-    "com.actioncode.ui-system": "0.1.0",
     "com.actioncode.game-data-system": "0.5.1",
     "com.unity.localization": "1.5.11",
     "com.unity.ugui": "2.0.0"
