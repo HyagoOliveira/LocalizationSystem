@@ -49,7 +49,8 @@ namespace ActionCode.LocalizationSystem
         }
 
         /// <summary>
-        /// Updates the dynamic localization using the given variable name and value.
+        /// Updates the dynamic localization using the given variable name and value. 
+        /// <b>Always check if your String Reference is Smart.</b>
         /// </summary>
         /// <param name="localization"></param>
         /// <param name="variableName">The dynamic variable name inside the Local Variables.</param>
