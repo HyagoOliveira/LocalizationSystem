@@ -20,9 +20,14 @@ namespace ActionCode.LocalizationSystem
         public static bool TryGetDynamicVariable<T>(this LocalizedString localization, string variableName, out T variable)
             where T : IVariable
         {
-            var hasVariable = localization.ContainsKey(variableName);
-            variable = hasVariable ? (T)localization[variableName] : default;
-            return hasVariable;
+            var hasValue = localization.TryGetValue(variableName, out var rawValue);
+            if (!hasValue) throw new ArgumentException($"Variable '{variableName}' does not exists in '{localization}' Local Variables");
+            if (rawValue is T value)
+            {
+                variable = value;
+                return true;
+            }
+            throw new ArgumentException($"Variable '{variableName}' has invalid type ({rawValue.GetType().Name} != {typeof(T).Name}).");
         }
 
         /// <summary>
@@ -37,8 +42,7 @@ namespace ActionCode.LocalizationSystem
             where T : IVariable
         {
             var hasVariable = TryGetDynamicVariable(localization, variableName, out T variable);
-            if (!hasVariable) throw new ArgumentException($"Variable '{variableName}' does not exists in '{localization}' Local Variables");
-            return variable;
+            return hasVariable ? variable : default;
         }
 
         /// <summary>
