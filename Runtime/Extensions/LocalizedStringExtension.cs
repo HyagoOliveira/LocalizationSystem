@@ -1,6 +1,9 @@
 using System;
+using UnityEngine;
 using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 using UnityEngine.Localization.SmartFormat.PersistentVariables;
+using UnityEngine.Localization.Tables;
 
 namespace ActionCode.LocalizationSystem
 {
@@ -117,10 +120,24 @@ namespace ActionCode.LocalizationSystem
             var variable = GetDynamicVariable<StringVariable>(localization, variableName);
             localization.StringChanged += _ =>
             {
-                var code = UnityEngine.Localization.Settings.LocalizationSettings.SelectedLocale.Identifier.Code;
+                var code = LocalizationSettings.SelectedLocale.Identifier.Code;
                 var info = new System.Globalization.CultureInfo(code);
                 variable.Value = value.ToString(format, info);
             };
+        }
+
+        /// <summary>
+        /// Returns wether the given localized string is smart.
+        /// </summary>
+        /// <param name="localization"></param>
+        /// <returns>An asynchronous operation wether the given localized string is smart.</returns>
+        public static async Awaitable<bool> IsSmartStringAsync(this LocalizedString localization)
+        {
+            var tableOperation = await LocalizationSettings.StringDatabase.GetTableAsync(localization.TableReference).Task;
+            if (tableOperation is not StringTable table) return false;
+
+            var entry = table.GetEntry(localization.TableEntryReference.KeyId);
+            return entry?.IsSmart == true;
         }
     }
 }

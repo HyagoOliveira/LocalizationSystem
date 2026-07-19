@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Added
 - Cast Type validation when getting Dynamic Variable
+- Is Smart String extension function
 
 ## [2.0.0] - 2026-07-12
 ### Changed
